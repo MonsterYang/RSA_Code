@@ -8,7 +8,7 @@
 		$data = $_POST['data'];
 		$key = base64_encode(pack("H*", $data));
 		echo Rsa::privDecrypt($key,true);
-        //inner_test('hello!');
+        // inner_test('hello!');  //内部加密解密测试
 	}
 
     /*
